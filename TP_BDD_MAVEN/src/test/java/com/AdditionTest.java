@@ -22,8 +22,8 @@ public class AdditionTest {
 	
 	@Test
 	public void calculerTest() {
-		long add = Addition.calculer(11,12);
-		Assert.assertEquals(add,23);
+		long add = Addition.calculer(12,12);
+		Assert.assertEquals(add,24);
 	}
 	
 	
